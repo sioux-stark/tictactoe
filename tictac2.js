@@ -39,10 +39,9 @@ window.onload = function() {
 		
 
 		box1.onclick=function(){
-			if (box1Picked != true){
-				if(confirm("Are you sure you want to move here") === true) {
-			box1.innerHTML = box1.innerHTML + sign;
-			moves[0] = sign;
+			if (box1Picked !== true){
+				this.innerHTML = sign;
+				moves[0] = sign;
 				} else {}	
 
 					if(sign === "O"){
@@ -53,15 +52,14 @@ window.onload = function() {
 					}
 						turn += turn + 1;
 						box1Picked = true;
-					}	
+					};	
 	
-			};
+			
 
 		box2.onclick=function(){
-			if (box2Picked != true){
-				if(confirm("Are you sure you want to move here") === true) {
-			box2.innerHTML = box2.innerHTML + sign;
-			moves[1] = sign;	 
+			if (box2Picked !== true){
+				this.innerHTML = sign;
+				moves[1] = sign;	 
 				} else {}
 
 					if(sign === "O"){
@@ -73,15 +71,14 @@ window.onload = function() {
 					}
 						turn += turn + 1;
 						box2Picked = true;
-					}	
+					};	
 				
-		};	
+			
 
 		box3.onclick=function(){
-				if (box3Picked != true){
-					if(confirm("Are you sure you want to move here") === true) {
-			box3.innerHTML = box3.innerHTML + sign;
-			moves[2] = sign;
+				if (box3Picked !== true){
+					this.innerHTML = sign;
+					moves[2] = sign;
 				} else {}
 
 				    if(sign === "O") {
@@ -92,14 +89,13 @@ window.onload = function() {
 					}
 						turn += turn + 1;
 						box3Picked = true;
-					}
-		};
+					};
+		
 
 		box4.onclick=function(){
 				if (box4Picked != true){
-					if(confirm("Are you sure you want to move here") === true) {
-			box4.innerHTML = box4.innerHTML + sign;
-			moves[3] = sign;
+					this.innerHTML = sign;
+					moves[3] = sign;
 				} else {}
 
 					if(sign === "O") {
@@ -109,14 +105,13 @@ window.onload = function() {
 					}
 						turn += turn + 1;
 						box4Picked = true;
-					}
-		};
+					};
+		
 
 		box5.onclick=function(){
 				if (box5Picked != true){
-					if(confirm("Are you sure you want to move here") === true) {
-			box5.innerHTML = box5.innerHTML + sign;
-			moves[4] = sign;
+					this.innerHTML = sign;
+					moves[4] = sign;
 				} else {}
 
 					if(sign === "O") {
@@ -126,14 +121,13 @@ window.onload = function() {
 					}
 						turn += turn + 1;
 						box5Picked = true;
-					}
-		};
+					};
+		
 
 		box6.onclick=function(){
    			if (box6Picked != true){
-   				if(confirm("Are you sure you want to move here") === true) {
-			box6.innerHTML = box6.innerHTML + sign;
-			moves[5] = sign;
+   				this.innerHTML = sign;
+				moves[5] = sign;
 				} else {}
 
 					if(sign === "O") {
@@ -143,14 +137,13 @@ window.onload = function() {
 					}
 						turn += turn + 1;
 						box6Picked = true;
-					}
-		};
+					};
+		
 
 		box7.onclick=function(){
 			if (box7Picked != true){
-				if(confirm("Are you sure you want to move here") === true) {
-			box7.innerHTML = box7.innerHTML + sign;
-			moves[6] = sign;
+				this.innerHTML = sign;
+				moves[6] = sign;
 				} else {}
 
 					if(sign === "O") {
@@ -160,15 +153,14 @@ window.onload = function() {
 					}
 						turn += turn + 1;
 						box7Picked = true;
-					}
+					};
 
-		};
+		
 
 		box8.onclick=function(){
 			if (box8Picked != true) {
-				if(confirm("Are you sure you want to move here") === true) {
-			box8.innerHTML = box8.innerHTML + sign;
-			moves[7] = sign;
+				this.innerHTML = sign;
+				moves[7] = sign;
 				} else {}
 
 					if(sign === "O") {
@@ -179,14 +171,13 @@ window.onload = function() {
 						}
 							turn += turn + 1;
 							box8Picked = true;
-						}
-		};
+						};
+		
 
 
 	box9.onclick=function(){
 		if (box9Picked != true) {
-			if(confirm("Are you sure you want to move here") === true) {
-			box9.innerHTML = box9.innerHTML + sign;
+			this.innerHTML = sign;
 			moves[8] = sign;
 				} else {}
 
@@ -197,11 +188,11 @@ window.onload = function() {
 					}
 					turn += turn + 1;
 					box9Picked = true;
-				}
+				};
 
  
 			
-};
+
 
 
 //to reload the page 

@@ -17,7 +17,6 @@ table {
 
   height: 300px;
   width: 302px;
- 
 
 }
 
@@ -72,6 +71,7 @@ table {
 	text-align: center;
 	font-family: Chalkduster;
 	font-size: 30px;
+	color:navy;
 }
 
 #squareFour{

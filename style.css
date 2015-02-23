@@ -20,7 +20,7 @@ table {
 
 }
 
-.buttonHolder{
+#buttonHolder{
 	margin-left:auto;
     margin-right:auto;
 }
@@ -118,6 +118,17 @@ table {
 	font-family: Chalkduster;
 	font-size: 30px;
 	color:navy;
+}
+
+
+
+
+
+
+
+
+
+
 }
 
 
